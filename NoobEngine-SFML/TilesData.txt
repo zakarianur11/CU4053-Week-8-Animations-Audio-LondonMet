@@ -1,0 +1,7 @@
+Platform,286.253,387.573,300,78.1,0,1,0,1,Platform.png
+icon,664,238,50,50,0,1,0,1,icon.png
+Wall,658.271,293.841,68.2,92.5,0,1,0,1,Wall.png
+Collectable,440,82,50,50,1,0,1,1,Collectable.png
+Collectable,557,86,50,50,1,0,1,1,Collectable.png
+Collectable,718,82,50,50,1,0,1,1,Collectable.png
+Collectable,835.8,80.228,50.6,47.3,0,1,0,1,Collectable.png

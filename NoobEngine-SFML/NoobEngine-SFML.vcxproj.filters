@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{f2badd73-2c61-4d1a-996c-51af9b66bfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Core">
+      <UniqueIdentifier>{6d5f8aaa-24b4-4ba3-963b-d364d22ee9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input">
+      <UniqueIdentifier>{50af7c80-fd8e-4f68-8e1f-7f1fce973460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Audio">
+      <UniqueIdentifier>{b77dd061-e721-4678-a8df-f9f9b6041c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\UI">
+      <UniqueIdentifier>{dfccb597-c872-4a40-baf8-c84bd32ed3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utilities">
+      <UniqueIdentifier>{52b0f8fb-4e6b-4ce9-9459-679307421097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\TileEditor">
+      <UniqueIdentifier>{7c417a19-0802-4ff6-8428-223ef8d62e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Animation">
+      <UniqueIdentifier>{28f1cf2f-e788-43fa-a612-8c282aca0a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Third Party">
+      <UniqueIdentifier>{842126de-5a18-47cb-a44a-34c303e668f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Third Party\Candle">
+      <UniqueIdentifier>{54115be1-b09e-4b00-8f3c-6d382e10bac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Third Party\ImGui">
+      <UniqueIdentifier>{64340020-abfa-4a8b-b9cb-857ee7d9a9dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-SFML.cpp">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\Color.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\Constants.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\DirectedLight.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\LightingArea.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\LightSource.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\Line.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\Polygon.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\RadialLight.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Candle\VertexArray.cpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\World.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\BaseLevel.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GameState.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Input.cpp">
+      <Filter>Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\AudioManager.cpp">
+      <Filter>Framework\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\SoundObject.cpp">
+      <Filter>Framework\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\MusicObject.cpp">
+      <Filter>Framework\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Menu.cpp">
+      <Filter>Framework\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Vector.cpp">
+      <Filter>Framework\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GameObject.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collision.cpp">
+      <Filter>Framework\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\TileEditor.cpp">
+      <Filter>Framework\TileEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\TileManager.cpp">
+      <Filter>Framework\TileEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Tiles.cpp">
+      <Filter>Framework\TileEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\LightTile.cpp">
+      <Filter>Framework\TileEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Animation.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig-SFML.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-SFML.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-SFML_export.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Framework\Third Party\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\Candle.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\Color.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\Constants.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\DirectedLight.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\LightingArea.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\LightSource.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\Line.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\Polygon.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\RadialLight.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\Vector2.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Candle\VertexArray.hpp">
+      <Filter>Framework\Third Party\Candle</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\World.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\BaseLevel.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GameState.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Input.h">
+      <Filter>Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\AudioManager.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\SoundObject.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\MusicObject.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Menu.h">
+      <Filter>Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\UI.h">
+      <Filter>Framework\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Vector.h">
+      <Filter>Framework\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Utilities.h">
+      <Filter>Framework\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GameObject.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collision.h">
+      <Filter>Framework\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TileEditor.h">
+      <Filter>Framework\TileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TileManager.h">
+      <Filter>Framework\TileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TileMap.h">
+      <Filter>Framework\TileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Tiles.h">
+      <Filter>Framework\TileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\TextureManager.h">
+      <Filter>Framework\TileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\LightTile.h">
+      <Filter>Framework\TileEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Animation.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Framework\DO_NOT_EDIT.txt">
+      <Filter>Framework</Filter>
+    </Text>
+    <Text Include="Framework\README.txt">
+      <Filter>Framework</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
